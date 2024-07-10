@@ -3,9 +3,9 @@ import project2 from "../assets/projects/movieRecommandationSystem.png"
 import project3 from "../assets/projects/airbnc.png"
 import project4 from "../assets/projects/BMI.png"
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like Reactjs TailwindCSS, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL,and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -43,13 +43,16 @@ export const PROJECTS = [
     title: "AirBnc",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A full-stack project that replicates Airbnb's platform, featuring user-friendly navigation, property listings, search functionality, user authentication, and responsive design. Built with React JS, Node.js, Express, and MongoDB, it offers a seamless and visually appealing user experience.",
+    technologies:  ["HTML", "CSS", "React", "Node.js", "MongoDB","Tan Stack Query","Tailwind CSS","Express"],
   },
 ];
 
 export const CONTACT = {
-  address: "kolkata ",
-  phoneNo: "+91-7059219618 ",
+  address: `Shyamnagar,
+  Kolkata, West Bengal,
+  India`,
+  phoneNo: "+91-7059219618",
   email: "uddeshy.mca21.du@gmail.com"
 };
+

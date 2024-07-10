@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri';
-import { SiMongodb, SiPython } from 'react-icons/si';
+import { SiMongodb, SiPython ,SiTailwindcss, SiExpress,SiMysql} from 'react-icons/si';
 import { FaNodeJs, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { animate, motion } from 'framer-motion';
 
@@ -55,11 +55,39 @@ const Technology = () => {
                 <FaNodeJs className='text-7xl text-green-400'/>
             </motion.div>
             <motion.div
+            variants={iconVariants(5)} 
+            initial="initial"
+            animate="animate" 
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiTailwindcss className='text-7xl text-blue-400'/>
+            </motion.div>
+            <motion.div
             variants={iconVariants(2)} 
             initial="initial"
             animate="animate" 
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaHtml5 className='text-7xl text-red-400'/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(1)} 
+            initial="initial"
+            animate="animate" 
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <FaCss3Alt className='text-7xl text-blue-500'/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(6)} 
+            initial="initial"
+            animate="animate" 
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiExpress className='text-7xl text-black-500'/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(2.5)} 
+            initial="initial"
+            animate="animate" 
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiMysql className='text-7xl text-black-400'/>
             </motion.div>
             <motion.div
             variants={iconVariants(2.2)} 
@@ -68,13 +96,7 @@ const Technology = () => {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiPython className='text-7xl text-yellow-300'/>
             </motion.div>
-            <motion.div
-            variants={iconVariants(4)} 
-            initial="initial"
-            animate="animate" 
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaCss3Alt className='text-7xl text-blue-500'/>
-            </motion.div>
+            
         </motion.div>
     </div>
   )
