@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/foodVilla.png"
 import project2 from "../assets/projects/movieRecommandationSystem.png"
-import project3 from "../assets/projects/airbnc.png"
-import project4 from "../assets/projects/BMI.png"
+import project3 from "../assets/projects/portfolio.png"
+import project4 from "../assets/projects/airbnc.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like Reactjs TailwindCSS, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 

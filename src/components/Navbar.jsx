@@ -11,8 +11,8 @@ import VercelLogo from "../assets/vercel.png";
 const Navbar = () => {
   return (
     <nav className='mb-20 flex items-center justify-between py-8 h-10'>
-      <a href="/"> {/* Replace #section-id with the ID of the section you want to link to */}
-        <div style={{ width: '22%'}} className='mix-blend-lighten rounded-full'>
+      <a href="/">
+        <div style={{ width: '100px', height: '100px' }} className='mix-blend-lighten rounded-full mt-8'>
           <img src={logo} alt='Logo' />
         </div>
       </a>
