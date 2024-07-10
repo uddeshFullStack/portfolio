@@ -24,6 +24,7 @@ export const PROJECTS = [
     description:
       "A food ordering single page web application. Food Villa is a leading online food delivery platform offering aseamless experience for users to order from a wide range of restaurants.Intuitive interface, users can explore diverse cuisines, search different restaurants Shimmer UI,Search Feature,Filter Feature",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Tan Stack Query","Tailwind CSS"],
+    link:"https://food-villa-nine.vercel.app/"
   },
   {
     title: "Movie Recommendation System",
@@ -31,6 +32,7 @@ export const PROJECTS = [
     description:
       "• A movie recommender system in Python can be implemented using vectorization techniques such as content basedand Collaborative Filtering.Content based is a supervised machine learning used to induce a classifier to discriminate between interesting and uninteresting items for the user. Collaborative Filtering recommends items based on similarity measures between users and/or items.",
     technologies: ["Python","Machine Learning","Jupyter NoteBook"],
+    link:"https://movie-recmmondation-system.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -38,6 +40,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "React", "Tailwind"],
+    link:"https://portfolio-lime-seven-18.vercel.app/"
   },
   {
     title: "AirBnc",
@@ -45,6 +48,7 @@ export const PROJECTS = [
     description:
       "A full-stack project that replicates Airbnb's platform, featuring user-friendly navigation, property listings, search functionality, user authentication, and responsive design. Built with React JS, Node.js, Express, and MongoDB, it offers a seamless and visually appealing user experience.",
     technologies:  ["HTML", "CSS", "React", "Node.js", "MongoDB","Tan Stack Query","Tailwind CSS","Express"],
+    link:"https://airbnb-app-black.vercel.app/"
   },
 ];
 
