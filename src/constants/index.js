@@ -2,6 +2,7 @@ import project1 from "../assets/projects/foodVilla.png"
 import project2 from "../assets/projects/movieRecommandationSystem.png"
 import project3 from "../assets/projects/portfolio.png"
 import project4 from "../assets/projects/airbnc.png"
+import project5 from "../assets/projects/saranFarm.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like Reactjs TailwindCSS, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -18,6 +19,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Saran Farm",
+    image: project5,
+    description:
+      "Saran.farm is a startup that brings together farmers, consumers, and nature lovers. We focus on connecting people with real farm experiences to help them understand agriculture better, support sustainable farming, and strengthen local communities. On our platform, you can book farm visits, join events like workshops and festivals, and farmers can sign up to share what their farms offer. Saran.farm makes it easy for everyone to learn about farming, enjoy nature, and support local farmers. The site is built with Next.js, making it easy to use on any device.",
+    technologies:  ["HTML", "CSS", "NextJs", "Node.js", "postgresql","Tailwind CSS","Express"],
+    link:"https://saran-farm.vercel.app/"
+  },
   {
     title: "Food Villa Website",
     image: project1,
