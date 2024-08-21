@@ -1,5 +1,6 @@
 import React from 'react'
-import { RiReactjsLine } from 'react-icons/ri';
+import { RiNextjsFill, RiReactjsLine } from 'react-icons/ri';
+import { DiPostgresql } from "react-icons/di";
 import { SiMongodb, SiPython ,SiTailwindcss, SiExpress,SiMysql} from 'react-icons/si';
 import { FaNodeJs, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { animate, motion } from 'framer-motion';
@@ -76,6 +77,13 @@ const Technology = () => {
                 <FaCss3Alt className='text-7xl text-blue-500'/>
             </motion.div>
             <motion.div
+            variants={iconVariants(2.5)} 
+            initial="initial"
+            animate="animate" 
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <DiPostgresql className='text-7xl text-cyan-400'/>
+            </motion.div>
+            <motion.div
             variants={iconVariants(6)} 
             initial="initial"
             animate="animate" 
@@ -88,6 +96,13 @@ const Technology = () => {
             animate="animate" 
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiMysql className='text-7xl text-black-400'/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(1)} 
+            initial="initial"
+            animate="animate" 
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <RiNextjsFill className='text-7xl text-blue-500'/>
             </motion.div>
             <motion.div
             variants={iconVariants(2.2)} 
