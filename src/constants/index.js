@@ -25,7 +25,7 @@ export const PROJECTS = [
     description:
       "Saran.farm is a startup that brings together farmers, consumers, and nature lovers. We focus on connecting people with real farm experiences to help them understand agriculture better, support sustainable farming, and strengthen local communities. On our platform, you can book farm visits, join events like workshops and festivals, and farmers can sign up to share what their farms offer. Saran.farm makes it easy for everyone to learn about farming, enjoy nature, and support local farmers. The site is built with Next.js, making it easy to use on any device.",
     technologies:  ["HTML", "CSS", "NextJs", "Node.js", "postgresql","Tailwind CSS","Express"],
-    link:"https://saran-farm.vercel.app/"
+    link:"https://indianfarm.vercel.app/"
   },
   {
     title: "Food Villa Website",
