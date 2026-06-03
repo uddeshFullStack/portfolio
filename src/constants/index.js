@@ -57,7 +57,7 @@ export const PROJECTS = [
     description:
       "A full-stack project that replicates Airbnb's platform, featuring user-friendly navigation, property listings, search functionality, user authentication, and responsive design. Built with React JS, Node.js, Express, and MongoDB, it offers a seamless and visually appealing user experience.",
     technologies:  ["HTML", "CSS", "React", "Node.js", "MongoDB","Tan Stack Query","Tailwind CSS","Express"],
-    link:"https://airbnb-app-black.vercel.app/"
+    link:"https://air-bnb-app-nu.vercel.app/"
   },
 ];
 
