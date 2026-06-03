@@ -1,6 +1,4 @@
-import project1 from "../assets/projects/foodVilla.png"
-import project2 from "../assets/projects/movieRecommandationSystem.png"
-import project3 from "../assets/projects/portfolio.png"
+import project1 from "../assets/projects/zestora.png"
 import project4 from "../assets/projects/airbnc.png"
 import project5 from "../assets/projects/saranFarm.png"
 
@@ -10,53 +8,83 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2024  - Present",
-    role: "Full Stack Developer Intern",
+    year: "Nov 2024 - May 2026",
+    role: "Frontend Developer",
+    company: "Radiansys (Client: Simpplr)",
+    description: `Building scalable enterprise features across communication and HR service desk platforms for large B2B customers. Developing responsive UI with React 18, TypeScript, and REST APIs integrated via React Query for optimized data handling. Working with micro-frontend architecture using Webpack Module Federation and feature flag systems. Implemented cache invalidation and optimistic UI updates with React Query mutations. Integrated WebSocket-based real-time workflows for AI streaming updates, status synchronization, and low-latency interactions.`,
+    technologies: [
+      "React 18",
+      "TypeScript",
+      "React Query",
+      "Module Federation",
+      "WebSockets",
+      "AG Grid",
+    ],
+  },
+  {
+    year: "Feb 2024 - July 2024",
+    role: "Full Stack Intern",
     company: "SGRS Academic Private Limited",
-    description: ` Increased website performance by optimizing front-end and back-end code for faster loading times. Developed scalable applications React Js, resulting in increased efficiency and maintainability`,
-    technologies: ["Javascript", "React.js", "TailwindCSS","Tan Stack Query","Node.js"],
+    description: `Developed reusable components using React.js and optimized backend SQL queries to improve performance. Improved page load time and enhanced overall UI performance and SEO.`,
+    technologies: ["JavaScript", "React.js", "SQL", "Node.js"],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: "Comms Planner & Comms AI",
+    company: "Simpplr",
+    period: "July 2025 - Present",
+    description:
+      "AI-powered campaign planner with chat and canvas UI for multi-channel publishing workflows. Built an advanced scheduling system with drag-and-drop calendar and dynamic table views using FullCalendar and TanStack Table. Integrated WebSocket streaming for real-time AI responses with reconnect handling and connection status monitoring. Managed complex server-state with React Query—caching, invalidation, optimistic updates, and background refetching. Developed file upload and attachment flows with template-based content generation and validation.",
+    technologies: [
+      "React",
+      "React Query",
+      "TanStack Table",
+      "FullCalendar",
+      "WebSockets",
+      "TypeScript",
+    ],
+  },
+  {
+    title: "HR Service Desk",
+    company: "Simpplr",
+    period: "Nov 2024 - July 2025",
+    description:
+      "Micro-frontend employee portal built with Webpack Module Federation for scalable, independent deployments. Delivered enterprise-grade data tables with AG Grid—sorting, filtering, pagination, and dynamic rendering. Implemented permission-based routing and feature flag integrations for controlled rollouts and access management. Integrated REST APIs and optimized async data handling for improved responsiveness.",
+    technologies: [
+      "React 18",
+      "TypeScript",
+      "Module Federation",
+      "AG Grid",
+      "React Query",
+    ],
+  },
+];
+
+export const MINOR_PROJECTS = [
+  {
     title: "Saran Farm",
     image: project5,
     description:
-      "Saran.farm is a startup that brings together farmers, consumers, and nature lovers. We focus on connecting people with real farm experiences to help them understand agriculture better, support sustainable farming, and strengthen local communities. On our platform, you can book farm visits, join events like workshops and festivals, and farmers can sign up to share what their farms offer. Saran.farm makes it easy for everyone to learn about farming, enjoy nature, and support local farmers. The site is built with Next.js, making it easy to use on any device.",
-    technologies:  ["HTML", "CSS", "NextJs", "Node.js", "postgresql","Tailwind CSS","Express"],
+      "Agrotourism platform built with Next.js that connects visitors with local farms. Users can browse listed farms, view details and galleries, book farm visits, explore events, and submit agrotourism suggestions. Farmers can register farms and events through dedicated flows, with forms powered by React Hook Form and data stored in Supabase.",
+    technologies: ["Next.js", "React", "Supabase", "Tailwind CSS", "MUI"],
     link:"https://indianfarm.vercel.app/"
   },
   {
-    title: "Food Villa Website",
+    title: "Zestora Website",
     image: project1,
     description:
-      "A food ordering single page web application. Food Villa is a leading online food delivery platform offering aseamless experience for users to order from a wide range of restaurants.Intuitive interface, users can explore diverse cuisines, search different restaurants Shimmer UI,Search Feature,Filter Feature",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Tan Stack Query","Tailwind CSS"],
+      "Swiggy-inspired food delivery web app built with React and TypeScript. Browse and search restaurants, filter listings, view menus, manage a Redux-powered cart, and sign in with Firebase Auth. Includes shimmer loading states, protected routes, Instamart-style grocery browsing, and a responsive layout styled with Tailwind CSS.",
+    technologies: ["React", "TypeScript", "Redux", "React Query", "Firebase", "Tailwind CSS"],
     link:"https://food-villa-nine.vercel.app/"
-  },
-  {
-    title: "Movie Recommendation System",
-    image: project2,
-    description:
-      "• A movie recommender system in Python can be implemented using vectorization techniques such as content basedand Collaborative Filtering.Content based is a supervised machine learning used to induce a classifier to discriminate between interesting and uninteresting items for the user. Collaborative Filtering recommends items based on similarity measures between users and/or items.",
-    technologies: ["Python","Machine Learning","Jupyter NoteBook"],
-    link:"https://movie-recmmondation-system.vercel.app/"
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "React", "Tailwind"],
-    link:"https://portfolio-lime-seven-18.vercel.app/"
   },
   {
     title: "AirBnc",
     image: project4,
     description:
-      "A full-stack project that replicates Airbnb's platform, featuring user-friendly navigation, property listings, search functionality, user authentication, and responsive design. Built with React JS, Node.js, Express, and MongoDB, it offers a seamless and visually appealing user experience.",
-    technologies:  ["HTML", "CSS", "React", "Node.js", "MongoDB","Tan Stack Query","Tailwind CSS","Express"],
+      "Airbnb-style property rental UI built with React and Vite. Explore listings by category, open listing detail pages with image galleries, search stays, manage wishlists and trips, and navigate hosting, booking, and account flows. Responsive design with Tailwind CSS and Material UI components.",
+    technologies: ["React", "Vite", "React Router", "Tailwind CSS", "MUI"],
     link:"https://air-bnb-app-nu.vercel.app/"
   },
 ];

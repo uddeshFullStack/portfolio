@@ -26,7 +26,7 @@ const Navbar = () => {
         <a href="https://github.com/uddeshFullStack" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://www.linkedin.com/in/uddeshy-kr-bhagat-0aa13797/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/uddesh-bhagat-387395399/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
